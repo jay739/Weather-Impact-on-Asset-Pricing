@@ -1,0 +1,90 @@
+.analysis {
+  padding: 24px;
+  background-color: #141517;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.analysis-header {
+  margin-bottom: 24px;
+}
+
+.analysis-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.analysis-header p {
+  margin: 8px 0 0 0;
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.analysis-card {
+  background: #1a1b1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #2c2e33;
+}
+
+.analysis-card h3 {
+  margin: 0 0 16px 0;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.news-feed {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.news-item {
+  padding: 16px;
+  border-radius: 8px;
+  background: #202124;
+  border: 1px solid #2c2e33;
+}
+
+.news-item h4 {
+  margin: 8px 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.news-item p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.sentiment-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.news-item.positive .sentiment-badge {
+  background: rgba(76, 175, 80, 0.1);
+  color: #4CAF50;
+}
+
+.news-item.negative .sentiment-badge {
+  background: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+}

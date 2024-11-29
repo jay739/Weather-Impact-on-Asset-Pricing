@@ -1,0 +1,9 @@
+.titlebar {
+    height: 30px;
+    background: #1a1b1e;
+    -webkit-app-region: drag;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }

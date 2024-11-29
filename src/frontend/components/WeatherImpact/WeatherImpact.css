@@ -1,0 +1,116 @@
+.weather-impact {
+    padding: 24px;
+    background-color: #141517;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .weather-header {
+    margin-bottom: 24px;
+  }
+  
+  .weather-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .weather-header p {
+    margin: 8px 0 0 0;
+    color: #6c757d;
+    font-size: 16px;
+  }
+  
+  .weather-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+  }
+  
+  .weather-card {
+    background: #1a1b1e;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #2c2e33;
+  }
+  
+  .weather-card h3 {
+    margin: 0 0 16px 0;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .metric-item {
+    padding: 16px;
+    border-radius: 8px;
+    background: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .metric-label {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 4px;
+  }
+  
+  .metric-desc {
+    color: #6c757d;
+    font-size: 12px;
+  }
+  
+  .alerts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .alert-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    background: #202124;
+  }
+  
+  .alert-icon {
+    font-size: 24px;
+    margin-right: 16px;
+  }
+  
+  .alert-content h4 {
+    margin: 0 0 4px 0;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .alert-content p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .alert-item.warning {
+    border-left: 4px solid #ffc107;
+  }
+  
+  .alert-item.info {
+    border-left: 4px solid #2196F3;
+  }

@@ -1,0 +1,43 @@
+.real-time-chart {
+    background: #1a1b1e;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #2c2e33;
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .connection-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status {
+    font-size: 12px;
+  }
+  
+  .status.connected {
+    color: #4CAF50;
+  }
+  
+  .status.disconnected {
+    color: #f44336;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 12px;
+  }
